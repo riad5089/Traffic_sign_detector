@@ -1,23 +1,28 @@
-# Image Recogizer 
-Can Classify 18 different types of traffic_Sign <br/>
-The types are following: <br/>
+---
+title: Home
+layout: page
+---
 
- 1. Construction Signs
- 2. Hospital Signs
- 3. Informational Signs
- 4. Lane Control Signs
- 5. Motorway Signs
- 6. Parking Signs
- 7. Pedestrian Crossing Signs
- 8. Pedestrian Signs
- 9. Priority Signs
- 10. Prohibitory Signs
- 11. Railroad Signs
- 12. Regulatory Signs
- 13. Regulatory Signs for Bicycles
- 14. Roundabout Signs
- 15. School Zone Signs
- 16. Speed Limit Signs
- 17. Tourist Information Signs
- 18. Warning Signs
- 
+# Image Recognizer 
+Can classify 20 different types of caps <br/>
+The types are following: <br/>
+1. baseball cap
+2. beanie cap
+3. fedora cap
+4. cowboy hat
+5. kepi cap
+6. flat cap
+7. trucker cap
+8. newsboy cap
+9. pork pie hat
+10. bowler hat
+11. top hat
+12. sun hat
+13. boater hat
+14. ivy cap
+15. bucket hat
+16. balaclava cap
+17. turban cap
+18. taqiyah cap
+19. rasta cap
+20. visor cap
