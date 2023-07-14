@@ -1,6 +1,6 @@
 remote_theme: daviddarnes/alembic@main
 plugins:
--jekyll-remote-theme
+- jekyll-remote-theme
 
 Title: Traffic_Sign Detector
 Description: An Image classification Api that cassifies 18 different of traffic_sign.
