@@ -1,4 +1,4 @@
-remote_theme: benbalter/retlab
+remote_theme: owner/name
 plugins:
 - jekyll-remote-theme
 
