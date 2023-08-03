@@ -6,7 +6,7 @@ layout: page
 # Image Recognizer 
 Can classify 18 different types of traffic_sign <br/>
 The types are following: <br/>
-1. Construction Signs
+ 1. Construction Signs
  2. Hospital Signs
  3. Informational Signs
  4. Lane Control Signs
