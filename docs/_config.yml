@@ -1,4 +1,4 @@
-remote_theme: Phlow/feeling-responsive@gh-pages
+remote_theme: daattali/beautiful-jekyll@master
 
 plugins:
 - jekyll-remote-theme
