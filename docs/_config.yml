@@ -8,6 +8,9 @@ description: An image classification API that classifies 18 different types of t
 
 author:
   name: Mohammad Abdur Sobhan Riad
+  
+round-avatar: true
+post_search: true
 
 navbar-links:
-  Traffic_sign_recognizer : "docs/traffic_sign_recognizer.html"
+  Traffic_Sign_Detector : "docs/traffic_sign_recognizer.html"
