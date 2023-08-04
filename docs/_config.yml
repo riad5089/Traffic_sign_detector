@@ -1,4 +1,4 @@
-remote_theme: CloudCannon/hydra-jekyll-template@main
+remote_theme: andrewbanchich/forty-jekyll-theme@master
 
 plugins:
 - jekyll-remote-theme
