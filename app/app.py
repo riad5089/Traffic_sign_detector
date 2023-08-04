@@ -37,6 +37,7 @@ examples = [
     'test_images/download (2).png',
     'test_images/download (3).jpg',
     'test_images/download.png',
+    'test_images/download (4).jpg'
     ]
 
 iface = gr.Interface(fn=recognize_image, inputs=image, outputs=label, examples=examples)
