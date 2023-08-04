@@ -3,9 +3,11 @@ remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll@master
 plugins:
 - jekyll-remote-theme
 
-title: Traffic_Sign Detector
+title: Traffic_Sign_Detector
 description: An image classification API that classifies 18 different types of traffic_sign.
 
 author:
   name: Mohammad Abdur Sobhan Riad
 
+navbar-links:
+  Traffic_sign_recognizer : "docs/traffic_sign_recognizer.html"
