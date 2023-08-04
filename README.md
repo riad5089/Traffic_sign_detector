@@ -23,7 +23,6 @@ The types are following: <br/>
 # Model Deployment
 I deployed the model to HuggingFace Spaces Gradio App. The implementation can be found in app folder or [here](https://huggingface.co/spaces/MdRiad/traffic_sign_detector).
 
-![Screenshot_75](https://github.com/riad5089/Traffic_sign_detector/assets/93583569/aff226ac-7759-409e-850b-c1818f0d8f64)
-
+<img src="images/Screenshot_76.png" width=900 height=400>
  # API integration with GitHub Pages
 The deployed model API is integrated [here](https://github.com/riad5089/Traffic_sign_detector) in GitHub Pages Website. Implementation and other details can be found in `docs` folder.
