@@ -13,4 +13,4 @@ round-avatar: true
 post_search: true
 
 navbar-links:
-  Traffic_Sign_Detector : "docs/traffic_sign_recognizer.html"
+   Traffic_Sign_Recognizer : "docs/traffic_sign_recognizer.html"
