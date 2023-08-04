@@ -1,10 +1,16 @@
-remote_theme: daviddarnes/alembic-kit@master
+# remote_theme: daviddarnes/alembic-kit@master
 
+# plugins:
+# - jekyll-remote-theme
+
+# title: Traffic_Sign Detector
+# description: An image classification API that classifies 18 different types of traffic_sign.
+
+# author:
+#   name: Mohammad Abdur Sobhan Riad
+remote_theme: kitian616/jekyll-TeXt-theme@master
 plugins:
-- jekyll-remote-theme
-
-title: Traffic_Sign Detector
-description: An image classification API that classifies 18 different types of traffic_sign.
-
-author:
-  name: Mohammad Abdur Sobhan Riad
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jemoji
