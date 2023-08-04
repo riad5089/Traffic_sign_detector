@@ -1,4 +1,4 @@
-remote_theme: andrewbanchich/forty-jekyll-theme@master
+remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll@master
 
 plugins:
 - jekyll-remote-theme
