@@ -1,4 +1,4 @@
-remote_theme: andrewbanchich/forty-jekyll-theme@master
+remote_theme: daattali/beautiful-jekyll@master
 
 plugins:
 - jekyll-remote-theme
@@ -9,6 +9,6 @@ description: An image classification API that classifies 18 different types of t
 author:
   name: Mohammad Abdur Sobhan Riad
 
-navbar-links:
-  Recognizer: "docs/traffic_sign_recognizer.html"
+# navbar-links:
+#   Recognizer: "docs/index.md"
   
