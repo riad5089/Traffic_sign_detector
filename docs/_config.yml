@@ -1,4 +1,4 @@
-remote_theme: daattali/beautiful-jekyll@master
+remote_theme: jekyllt/jasper@master
 
 plugins:
 - jekyll-remote-theme
