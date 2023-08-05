@@ -5,6 +5,8 @@ from fastai.vision.all import load_learner
 
 import gradio as gr
 traffic_sign_labels=(
+
+
  'Construction Signs',
   'Hospital Signs',
   'Informational Signs',
