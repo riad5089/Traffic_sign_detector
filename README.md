@@ -21,7 +21,7 @@ The types are following: <br/>
  17. Tourist Information Signs
  18. Warning Signs
 # Model Deployment
-I deployed the model to HuggingFace Spaces Gradio App. The implementation can be found in app folder or [here](https://huggingface.co/spaces/MdRiad/traffic_sign_detector).
+I deployed the model to HuggingFace Spaces Gradio App. The implementation can be found in app folder or [here](https://huggingface.co/spaces/MdRiad/traffic_sign_recognizer).
 
 <img src="images/Screenshot_76.png" width=900 height=400>
 
