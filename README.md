@@ -1,6 +1,6 @@
 # Traffic_sign_detector
 An image classification model from data collection, cleaning, model training, deployment and API integration.<br/>
-The model can classify 18 different types of traffic_sign <br/> hellow
+The model can classify 18 different types of traffic_sign <br/>
 The types are following: <br/>
 1. Construction Signs
  2. Hospital Signs
