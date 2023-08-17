@@ -58,7 +58,7 @@ The recognition task i separately used three pretrained models: ResNet-34, Dense
 
 <b>3. ResNet-50</b></br>
 
-`For 18 Categories`: After multiple times data cleaning and fine-tuning with the ResNet-50 model on Category 18 signs got an accuracy of 76.85%.The implementation can be found in [here](https://huggingface.co/spaces/MdRiad/traffic_sign_recognizer_with_densenet).
+`For 18 Categories`: After multiple times data cleaning and fine-tuning with the ResNet-50 model on Category 18 signs got an accuracy of 76.85%.The implementation can be found in [here](https://huggingface.co/spaces/MdRiad/traffic_sign_recognizer_resnet50_18_cat).
  
 <img src="images/resnet50_18cat.png" width=900 height=350>
 
