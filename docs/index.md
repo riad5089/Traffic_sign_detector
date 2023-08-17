@@ -4,7 +4,7 @@ layout: page
 ---
 
 # Image Recognizer 
-Can classify 18 different types of traffic_sign <br/>
+Can classify 25 different types of traffic_sign <br/>
 The types are following: <br/>
  1. Regulatory Signs
  2. Warning Signs
