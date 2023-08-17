@@ -27,7 +27,12 @@ The types are following: <br/>
  23. Low Clearance Signs
  24. Traffic Signal Ahead Signs
  25. Detour Signs
-     
+
+# Dataset Preparation
+ <b>Data Collection: </b> Images are downloaded using the duckduckgo.</br>
+ <b>DataLoader : </b> DataLoader is created using the fastai DataBlock API to handle the dataset.</br>
+ <b>Data Augmentation:</b> Using Fastai provides default data augmentation function that can be applied to images in order to increase dataset.
+
 # Project Summary And Deployment
 I deployed the model to HuggingFace Spaces Gradio App. The implementation can be found in app folder or [here](https://huggingface.co/spaces/MdRiad/traffic_sign_recognizer).
 
