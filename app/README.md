@@ -13,4 +13,4 @@ license: apache-2.0
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
 
 HaggingFace Spaces App URL:https://huggingface.co/spaces/MdRiad/traffic_sign_detector <br/>
-Gradio App URL:https://mdriad-traffic-sign-detector.hf.space/?
+Gradio App URL:https://mdriad-traffic-sign-detector.hf.space/?</br>
