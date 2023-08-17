@@ -1,6 +1,6 @@
 # Traffic_sign_detector
 An image classification model from data collection, cleaning, model training, deployment and API integration.<br/>
-The model can classify 25 different types of traffic_sign <br/>
+The model can classify 25 different types of traffic_sign. And deployed the model to HuggingFace Spaces Gradio App. <br/>
 The types are following: <br/>
 1. Regulatory Signs
  2. Warning Signs
@@ -34,9 +34,23 @@ The types are following: <br/>
  <b>Data Augmentation:</b> Using Fastai provides default data augmentation function that can be applied to images in order to increase dataset.
 
 # Project Summary And Deployment
-I deployed the model to HuggingFace Spaces Gradio App. The implementation can be found in app folder or [here](https://huggingface.co/spaces/MdRiad/traffic_sign_recognizer).
+The recognition task is accomplished by leveraging three pretrained models: ResNet-34, DenseNet-121, and ResNet-50.The project focuses on two specific categories like 18 and 25 categories. The Summary of models and categories describe in below:
+
+ <b>1. ResNet-34</b></br>
+ 
+ `For 18 Categories`: After multiple times data cleaning and fine-tuning with the ResNet-34 model on Category 18 signs got an accuracy of 81%. The implementation can be found in [here](https://huggingface.co/spaces/MdRiad/traffic_sign_recognizer).
+ 
+ <img src="images/resnet_34_18.png" width=900 height=350>
+
+ `For 25 Categories`: After multiple times data cleaning and fine-tuning with the ResNet-34 model on Category 25 signs got an accuracy of 80%. The implementation can be found in [here](https://huggingface.co/spaces/MdRiad/traffic_sign_recognizer_resnet34_25cat).
+ 
+<img src="images/traffic_sign_resnet34_25_cat.png" width=900 height=350>
+
+I deployed the model to HuggingFace Spaces Gradio App. The implementation can be found in `app` folder or [here](https://huggingface.co/spaces/MdRiad/traffic_sign_recognizer).
 
 <img src="images/resnet_34_18.png" width=900 height=400>
 
+<b>1. DenseNet-121</b></br>
+`For 18 Categories`: After multiple times data cleaning and fine-tuning with the ResNet-34 model on Category 18 signs got an accuracy of 81%.
 # API integration with GitHub Pages
 The deployed model API is integrated [here](https://github.com/riad5089/Traffic_sign_detector) in GitHub Pages Website. Implementation and other details can be found in `docs` folder.
