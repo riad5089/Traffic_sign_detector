@@ -28,7 +28,7 @@ The types are following: <br/>
  24. Traffic Signal Ahead Signs
  25. Detour Signs
      
-# Model Deployment
+# Project Summary And Deployment
 I deployed the model to HuggingFace Spaces Gradio App. The implementation can be found in app folder or [here](https://huggingface.co/spaces/MdRiad/traffic_sign_recognizer).
 
 <img src="images/resnet_34_18.png" width=900 height=400>
