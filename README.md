@@ -1,6 +1,6 @@
 # Traffic_sign_detector
 An image classification model from data collection, cleaning, model training, deployment and API integration.<br/>
-The model can classify 18 different types of traffic_sign. And deployed the model to HuggingFace Spaces Gradio App. <br/>
+The model can classify 18 different types of traffic_sign. <br/>
 The types are following: <br/>
 1. Construction Signs
  2. Hospital Signs
@@ -28,9 +28,11 @@ The types are following: <br/>
  <b>Data Augmentation:</b> Using Fastai provides default data augmentation function that can be applied to images in order to increase dataset.
 
 # Project Summary And Deployment
-The recognition task i  experimented with three pre-trained models: ResNet-34, DenseNet-121, and ResNet-50, and evaluated their performance on two separate categories: 18 categories and 25 categories. After comparing the results, the results revealed that the ResNet-34 model achieved the highest accuracy of 81% when classifying images into the 18 predefined categories. Based on this result i deployed the ResNet-34 model with 18 categoriey for my project.
+The recognition task i  experimented with three pre-trained models: ResNet-34, DenseNet-121, and ResNet-50, and evaluated their performance on two separate categories: 18 categories and 25 categories. After comparing the results, the results revealed that the ResNet-34 model achieved the highest accuracy of 81% when classifying images into the 18 predefined categories. Based on this result i deployed the ResNet-34 model with 18 categoriey for my project. I deployed the model to HuggingFace Spaces Gradio App. The implementation can be found in `app` folder or [here](https://huggingface.co/spaces/MdRiad/traffic_sign_recognizer).
+
 
 
 
 # API integration with GitHub Pages
 The deployed model API is integrated [here](https://github.com/riad5089/Traffic_sign_detector) in GitHub Pages Website. Implementation and other details can be found in `docs` folder.
+ <img src="images/resnet_34_18.png" width=900 height=350>
