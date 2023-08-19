@@ -28,37 +28,7 @@ The types are following: <br/>
  <b>Data Augmentation:</b> Using Fastai provides default data augmentation function that can be applied to images in order to increase dataset.
 
 # Project Summary And Deployment
-The recognition task i separately used three pretrained models: ResNet-34, DenseNet-121, and ResNet-50.As well as two separate categories like 18 and 25 categories. The Summary of models and categories describe in below:
-
- <b>1. ResNet-34</b></br>
- 
- `For 18 Categories`: After multiple times data cleaning and fine-tuning with the ResNet-34 model on Category 18 signs got an accuracy of 81%. The implementation can be found in [here](https://huggingface.co/spaces/MdRiad/traffic_sign_recognizer).
- 
- <img src="images/resnet_34_18.png" width=900 height=350>
-
- `For 25 Categories`: After multiple times data cleaning and fine-tuning with the ResNet-34 model on Category 25 signs got an accuracy of 80%. The implementation can be found in [here](https://huggingface.co/spaces/MdRiad/traffic_sign_recognizer_resnet34_25cat).
- 
-<img src="images/traffic_sign_resnet34_25_cat.png" width=900 height=350>
-
-<b>2. DenseNet-121</b></br>
-
-`For 18 Categories`: After multiple times data cleaning and fine-tuning with the DenseNet-121 model on Category 18 signs got an accuracy of 77%.The implementation can be found in [here](https://huggingface.co/spaces/MdRiad/traffic_sign_recognizer_with_densenet).
- 
-<img src="images/densenet18.png" width=900 height=350>
-
-`For 25 Categories`: After multiple times data cleaning and fine-tuning with the DenseNet-121 model on Category 25 signs got an accuracy of 76.74%.The implementation can be found in [here](https://huggingface.co/spaces/MdRiad/traffic_sign_recognizer_densenet_25_cat).
- 
-<img src="images/traffic_sign_densenet_25_cat.png" width=900 height=350>
-
-<b>3. ResNet-50</b></br>
-
-`For 18 Categories`: After multiple times data cleaning and fine-tuning with the ResNet-50 model on Category 18 signs got an accuracy of 76.85%.The implementation can be found in [here](https://huggingface.co/spaces/MdRiad/traffic_sign_recognizer_resnet50_18_cat).
- 
-<img src="images/resnet50_18cat.png" width=900 height=350>
-
-`For 25 Categories`: After multiple times data cleaning and fine-tuning with the ResNet-50 model on Category 25 signs got an accuracy of 78.19%.The implementation can be found in [here](https://huggingface.co/spaces/MdRiad/traffic_sign_recognizer_resnet50_25cat).
- 
-<img src="images/resnet50_25cat.png" width=900 height=350>
+The recognition task i  experimented with three pre-trained models: ResNet-34, DenseNet-121, and ResNet-50, and evaluated their performance on two separate categories: 18 categories and 25 categories. After comparing the results, the results revealed that the ResNet-34 model achieved the highest accuracy of 81% when classifying images into the 18 predefined categories. Based on this result i deployed the ResNet-34 model with 18 categoriey for my project.
 
 
 
