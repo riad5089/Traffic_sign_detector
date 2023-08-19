@@ -9,8 +9,8 @@ The types are following: <br/>
  5. Motorway Signs
  6. Parking Signs 
  7. Pedestrian Crossing Signs
- 8. Pedestrian Signs
- 9. Priority Signs
+ 8. Priority Signs
+ 9. Pedestrian Signs 
  10. Prohibitory Signs
  11. Railroad  Signs
  12. Regulatory Signs
