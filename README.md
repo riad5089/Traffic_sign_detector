@@ -29,7 +29,16 @@ The types are following: <br/>
  Details can be found in `Traffic sign detection_data_prep.ipynb`.
  
 # Project Summary And Deployment
-The recognition task I  experimented with three pre-trained models: ResNet-34, DenseNet-121, and ResNet-50, and evaluated their performance on two separate categories: 18 categories and 25 categories. After comparing the results, the results revealed that the ResNet-34 model achieved the highest accuracy of 81% when classifying images into the 18 predefined categories. Based on this result I deployed the ResNet-34 model with 18 categoriey for my project. I deployed the model to HuggingFace Spaces Gradio App. The implementation can be found in `app` folder or [here](https://huggingface.co/spaces/MdRiad/traffic_sign_recognizer).
+The recognition task I  experimented with three pre-trained models: ResNet-34, DenseNet-121, and ResNet-50, and evaluated their performance on two separate categories: 18 categories and 25 categories. After comparing the results, the results revealed that the ResNet-34 model achieved the highest accuracy of 81% when classifying images into the 18 categories.
+
+| Model | Accuracy (For 18 category) | Accuracy (For 25 category) |
+|----------|----------|----------|
+| ResNet-34 | 81% | 80% |
+|  DenseNet-121 | 77% | 76.74% |
+|  ResNet-50 | 76.85% | 78.19% |
+
+
+Based on this result I deployed the ResNet-34 model with 18 categoriey for my project. I deployed the model to HuggingFace Spaces Gradio App. The implementation can be found in `app` folder or [here](https://huggingface.co/spaces/MdRiad/traffic_sign_recognizer).
 
  <img src="images/resnet_34_18.png" width=900 height=350>
  
