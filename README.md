@@ -30,11 +30,13 @@ The types are following: <br/>
 # Project Summary And Deployment
 The recognition task i  experimented with three pre-trained models: ResNet-34, DenseNet-121, and ResNet-50, and evaluated their performance on two separate categories: 18 categories and 25 categories. After comparing the results, the results revealed that the ResNet-34 model achieved the highest accuracy of 81% when classifying images into the 18 predefined categories. Based on this result i deployed the ResNet-34 model with 18 categoriey for my project. I deployed the model to HuggingFace Spaces Gradio App. The implementation can be found in `app` folder or [here](https://huggingface.co/spaces/MdRiad/traffic_sign_recognizer).
 
+ <img src="images/resnet_34_18.png" width=900 height=350>
+ 
 # Training and Data Cleaning
-<b>Training: </b>After multiple times fine-tuning with the ResNet-50 model on Category 18 signs got an accuracy of 81%.
-<b>Data Cleaning: </b>In the data collection process from the browser, various sources of noise were encountered, including images that contained mixed categories, after undergoing multiple rounds of cleaning, the dataset was significantly reduced. However, it is important to note that the refinement process did not yield the desired level of improvement in model performance.
+<b>Training: </b>After multiple times fine-tuning with the ResNet-50 model on Category 18 signs got an accuracy of 81%.</br>
+<b>Data Cleaning: </b>In the data collection process from the browser, there were many noise were encountered, including images that contained mixed categories, after undergoing multiple rounds of cleaning, the dataset was significantly reduced. However, it is important to note that the refinement process did not yield the desired level of improvement in model performance.
 
 
 # API integration with GitHub Pages
 The deployed model API is integrated [here](https://github.com/riad5089/Traffic_sign_detector) in GitHub Pages Website. Implementation and other details can be found in `docs` folder.
- <img src="images/resnet_34_18.png" width=900 height=350>
+
