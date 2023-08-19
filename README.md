@@ -27,8 +27,9 @@ The types are following: <br/>
  <b>DataLoader : </b> DataLoader is created using the fastai DataBlock API to handle the dataset.</br>
  <b>Data Augmentation:</b> Using Fastai provides default data augmentation function that can be applied to images in order to increase dataset.</br>
  Details can be found in `Traffic sign detection_data_prep.ipynb`.
+ 
 # Project Summary And Deployment
-The recognition task i  experimented with three pre-trained models: ResNet-34, DenseNet-121, and ResNet-50, and evaluated their performance on two separate categories: 18 categories and 25 categories. After comparing the results, the results revealed that the ResNet-34 model achieved the highest accuracy of 81% when classifying images into the 18 predefined categories. Based on this result i deployed the ResNet-34 model with 18 categoriey for my project. I deployed the model to HuggingFace Spaces Gradio App. The implementation can be found in `app` folder or [here](https://huggingface.co/spaces/MdRiad/traffic_sign_recognizer).
+The recognition task I  experimented with three pre-trained models: ResNet-34, DenseNet-121, and ResNet-50, and evaluated their performance on two separate categories: 18 categories and 25 categories. After comparing the results, the results revealed that the ResNet-34 model achieved the highest accuracy of 81% when classifying images into the 18 predefined categories. Based on this result I deployed the ResNet-34 model with 18 categoriey for my project. I deployed the model to HuggingFace Spaces Gradio App. The implementation can be found in `app` folder or [here](https://huggingface.co/spaces/MdRiad/traffic_sign_recognizer).
 
  <img src="images/resnet_34_18.png" width=900 height=350>
  
